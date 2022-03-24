@@ -1,0 +1,19 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: main",
+            "type": "python",
+            "request": "launch",
+            "python": "${command:python.interpreterPath}",
+            "program": "/home/francesco/Desktop/Dati_Farzad/propagator_directory/main.py",
+            "console": "integratedTerminal",
+            "env": {"PYTHONPATH":"${PYTHONPATH}:/home/francesco/miniconda3/envs"},
+            "args":["-f" , "params.json" , "-o" , "work", "-veg" , "./data/veg_Cuglieri.tif" , "-dem" , "./data/dem_Cuglieri.tif" 
+            ]
+        }
+    ]
+}
